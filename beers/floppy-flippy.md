@@ -6,3 +6,4 @@ author: ''
 image: ''
 
 ---
+Hazy IPA Double Dry Hopped Citra, Galaxy, Amarillo, Azacca 
