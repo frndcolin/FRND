@@ -9,17 +9,16 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Success'
+    title: "Success"
   }
-}
+};
 </script>
 
-<style lang="scss">
-.mail-image {
-  display: block;
-  margin: auto;
-  width: 90%;
-  max-width: 500px;
-}
+<style lang="stylus">
+.mail-image
+  display block
+  margin auto
+  max-width 500px
+  width 90%
 </style>
 

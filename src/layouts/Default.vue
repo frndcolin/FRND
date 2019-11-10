@@ -1,48 +1,41 @@
 <template>
   <div class="layout">
     <div id="content-wrapper">
-      <Header/>
-      <slot/>
+      <Header />
+      <slot />
     </div>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default {
   components: {
     Footer,
-    Header,
-  },
-}
+    Header
+  }
+};
 </script>
 
 
-<style lang="scss">
-body, html {
-  height: 100%;
-}
-
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-#app {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-#content-wrapper {
-  flex: 1 0 auto;
-  max-width: 950px;
-  width: 90vw;
-  margin: 0 auto;
-}
+<style lang="stylus">
+body, html
+  height 100%
+body
+  font-family -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
+  line-height 1.5
+  margin 0
+  padding 0
+#app
+  display flex
+  flex-direction column
+  height 100%
+#content-wrapper
+  flex 1 0 auto
+  margin 0 auto
+  max-width 950px
+  width 90vw
 </style>

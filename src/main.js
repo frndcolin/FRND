@@ -1,7 +1,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 
 import BootstrapVue from 'bootstrap-vue'
-import './assets/styles/main.scss'
+import './assets/styl/main.styl'
 
 import checkIfMobile from './mixins/checkIfMobile'
 

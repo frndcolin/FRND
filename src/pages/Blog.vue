@@ -8,15 +8,13 @@
       :key="item.node.id"
       class="blog-post"
     >
-
-    <div class="media my-5">
-      <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
-      <div class="media-body">
-        <h5 class="mt-0">{{item.node.title}}</h5>
-        <p class="text-dark">{{item.node.excerpt}}</p>
+      <div class="media my-5">
+        <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
+        <div class="media-body">
+          <h5 class="mt-0">{{item.node.title}}</h5>
+          <p class="text-dark">{{item.node.excerpt}}</p>
+        </div>
       </div>
-    </div>
-
     </g-link>
   </Layout>
 </template>
@@ -37,15 +35,11 @@ query Blog {
 }
 </page-query>
 
-<style lang="scss" scoped>
-.media {
-  img {
-    width: 120px;
-    height: 120px;
-  }
-}
-
-.media-body {
-  margin: auto;
-}
+<style lang="stylus" scoped>
+.media
+  img
+    height 120px
+    width 120px
+.media-body
+  margin auto
 </style>
